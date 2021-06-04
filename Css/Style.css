@@ -1,0 +1,45 @@
+body{
+    background: transparent;
+    border: 0;
+    margin: 0;
+    padding: 0;
+    vertical-align: baseline;
+    font-family:'Times New Roman', Times, serif;
+    height: 721px;
+    text-align: center;
+}
+header p{
+    text-align: center;
+}
+#content td{
+    padding: 10px;
+    width: 25%;
+}
+#item img{
+    width: 100%;
+}
+footer{
+    width: 85%;
+    display: inline-block;
+}
+#content{
+    display: flex;
+    width: 70%;
+    display: inline-block;
+}
+#about{
+    border-top: 1px inset #000000;
+}
+#about p{
+    text-align: center;
+}
+#row h2,p{
+    text-align: left ;
+}
+
+#row{
+    width: 100%;
+}
+footer table{
+    border-top: 1px inset #000000;
+}
