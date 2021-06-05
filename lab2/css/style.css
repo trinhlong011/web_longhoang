@@ -1,0 +1,135 @@
+html{
+    border: 0;
+    margin: 0;
+    padding: 0;
+    font-family:'Times New Roman', Times, serif;
+    background-image: url('../img/dark-wood.jpg');
+    height: 741px;
+    text-align: center;
+
+}
+body{
+    width: 60%;
+    height: calc(100% - 60px); 
+    display: inline-block;
+    background-color: rgb(250, 250, 250);
+    margin: 30px;
+}
+#header{
+    width: 100%;
+    height: 20%;
+    background-image: url('../img/header.jpg');
+}
+nav{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    background-color:rgb(177, 177, 177) ;
+}
+nav #nav{
+    margin-top: 7px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: #ffffff;
+    background: none;
+    border: none;
+}
+section{
+    width: 100%;
+    height: 70%;
+    display: flex;
+}
+section #item_content{
+    width: 70%;
+    height: 100%;
+    margin: 0px;
+    border-right: 1px ridge #cccccc;
+}
+section #item{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+section #item #item_con{
+    width: calc(100% - 40px);
+    height: calc(50% - 40px);
+    margin: 20px;
+    border: 1px ridge #cccccc;
+}
+section #item_con #img{
+    width: calc(100% - 10px);
+    height: calc(87% - 10px);
+    margin: 5px 5px 0px 5px;
+    border: 1px ridge #cccccc;
+    background-color: blue;
+    background-size: cover;
+}
+section #item_con .img1{
+    background-image: url('../img/bok-choi.jpg');
+}
+section #item_con .img2{
+    background-image: url('../img/teriyaki.jpg');
+}
+section #item_con p{
+    height: 13%;
+    float: left;
+    font-size: 13px;
+    color: rgb(110, 110, 110);
+    margin: 0px;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+section #content{
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+section #content #content_con{
+    width: 100%;
+    height: calc(50% - 20px);
+    margin: 10px;
+    text-align: left;
+}
+section #content h2{
+    margin: 10px 0px 0px 0px;
+    padding: 10px 10px 0px 10px;
+    font-weight: normal;
+}
+section #content h3{
+    font-weight: normal;
+    margin: 0px 0px 10px 0px;
+    padding: 0px 10px 0px 10px;
+    color: rgb(204, 47, 47);
+}
+section #content h4{
+    margin: 0px auto;
+    font-weight: normal;
+    padding: 0px 10px 0px 10px;
+}
+section #comment{
+    width: calc(30% - 1px);
+    height: 100%;
+    text-align: left;
+}
+section #comment h2{
+    font-weight: normal;
+    margin-left: 20px;
+    color: rgb(204, 47, 47);
+}
+section #comment #popular h4{
+    width: 60%;
+    font-weight: normal;
+    color: rgb(204, 47, 47);
+    border-bottom: 1px ridge #cccccc;
+    margin-left: 20px;
+}
+section #comment #contact h4{
+    font-weight: normal;
+    margin-left: 20px;
+    width: 60%;
+}
+footer{
+    width: 100%;
+    height: 5%;
+    background-color:rgb(177, 177, 177) ;
+}
